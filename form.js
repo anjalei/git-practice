@@ -16,7 +16,7 @@ function Person(firstName, lastName, age, sex) {
   function createNewStudents(){
       const person1 = new Person("yash", "prasad", 10, "M");
       const person2 = new Person("vaibhav", "prasad", 20, "M");
-      
+      const person3 = new Person("dhinesh","kumar",18,"M");
       person1.printFullName();
       person1.findegligibleOrNot(18);
       person2.printFullName();
